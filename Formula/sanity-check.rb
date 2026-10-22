@@ -1,28 +1,28 @@
 class SanityCheck < Formula
   desc "Find API keys, passwords and tokens leaked into shell history"
   homepage "https://github.com/softway-solutions/sanity-check"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.1.1/sanity-check_0.1.1_darwin_arm64.tar.gz"
-      sha256 "dfe06a058e87597433b121b5852d3ad9b7849104f9cf412984e7f949afa41f4c"
+      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.2.0/sanity-check_0.2.0_darwin_arm64.tar.gz"
+      sha256 "5b53f47519b2f6510e1ea029630efd95c26d0ebe74728fa7f5beb664acd01282"
     end
     on_intel do
-      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.1.1/sanity-check_0.1.1_darwin_amd64.tar.gz"
-      sha256 "1adee247ffde6ce683e19e9312d8cf199c4d9f78dfdcf64e190a4b9d7aa8f7de"
+      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.2.0/sanity-check_0.2.0_darwin_amd64.tar.gz"
+      sha256 "922a66535427a0f6710e4a7250d87dbf18cb56ba9c0f00e1af2b0a16761921f8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.1.1/sanity-check_0.1.1_linux_arm64.tar.gz"
-      sha256 "1d12deb34e9846f668e6b5d051c772e0434e97d06f57b6ff231feba5f6c45211"
+      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.2.0/sanity-check_0.2.0_linux_arm64.tar.gz"
+      sha256 "efa938f9dfa4b0bca02a7e4847824e154787ac6ecfadecf89ca51a8d5032006c"
     end
     on_intel do
-      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.1.1/sanity-check_0.1.1_linux_amd64.tar.gz"
-      sha256 "e01a37a64887f0d158b64c0b67cd079827a076ceb52047f08435f02e23a1539e"
+      url "https://github.com/softway-solutions/sanity-check/releases/download/v0.2.0/sanity-check_0.2.0_linux_amd64.tar.gz"
+      sha256 "f56af111a4bcdade7f6e4fbcea91fa1f2e3603ecf1385e61d688dddc22593287"
     end
   end
 
